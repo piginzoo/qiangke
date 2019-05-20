@@ -1,0 +1,26 @@
+{  
+    "name": "自动报名监控器",  
+    "version": "1.0",  
+    "manifest_version": 2,  
+    "description": "自动",  
+    "browser_action": {  
+        "default_icon": "./images/a.png",  
+        "default_title": "自动"  
+    },  
+    "permissions": [  
+        "contextMenus", // 右键菜单
+        "tabs", // 标签
+        "notifications", // 通知
+        "webRequest", // web请求
+        "webRequestBlocking",
+        "https://*/*",  
+        "http://*/*", 
+        "notifications"
+    ],  
+    "content_scripts": [  
+        {  
+            "matches": ["*://kfsjkx.bjedu.cn/*"],  
+            "js": ["js/jquery.js", "js/handler.js"]  
+        }  
+    ]  
+}  
