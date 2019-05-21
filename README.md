@@ -1,6 +1,6 @@
 给儿子抢课的Chrome插件：
 
-使用方式：
+# 使用方式
 
 1. clone这个项目
 
@@ -13,3 +13,17 @@
 5. 然后你登录该死的[北京市课外实践网站](http://kfsjkx.bjedu.cn/),然后跳转到[选课列表页](http://kfsjkx.bjedu.cn/index_page#/app/stuoptionalcourselist)，即可。
 
 6. 如果有新课，你的邮件软件会自动弹出，产生一个新建邮件，标题是那门课，这个时候，你就需要冲到网站，去抢课了！
+
+# 开发
+
+- 靠，这个破网站是http的，chrome对http网站不支持桌面通知，只好用一个诡异的邮件通知来代替了
+- 本来想自动抢，无奈网站是angularjs的，不太好用jquery操纵，无奈我angularjs不熟悉，否则，可以使用inject_script的方式，获得angularjs的引用，操纵之，有时间再研究吧
+
+## 参考
+- <https://blog.csdn.net/zhangwx6/article/details/56838678>
+- <https://blog.csdn.net/hhmouse111/article/details/36901699> 
+- <https://segmentfault.com/a/1190000004969298>
+- <https://www.cnblogs.com/liuxianan/p/chrome-plugin-develop.html>
+- <https://github.com/sxei/chrome-plugin-demo>
+**/
+
