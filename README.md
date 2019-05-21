@@ -18,6 +18,7 @@
 
 - 靠，这个破网站是http的，chrome对http网站不支持桌面通知，只好用一个诡异的邮件通知来代替了
 - 本来想自动抢，无奈网站是angularjs的，不太好用jquery操纵，无奈我angularjs不熟悉，否则，可以使用inject_script的方式，获得angularjs的引用，操纵之，有时间再研究吧
+- 需要使用<test_email.html>来测试一下你的邮件撰写界面是否能弹出，如果不能，你需要配置一下你的邮件客户端，比如outlook/mac的mail/foxmail等。
 
 ## 参考
 - <https://blog.csdn.net/zhangwx6/article/details/56838678>
@@ -25,5 +26,3 @@
 - <https://segmentfault.com/a/1190000004969298>
 - <https://www.cnblogs.com/liuxianan/p/chrome-plugin-develop.html>
 - <https://github.com/sxei/chrome-plugin-demo>
-**/
-
